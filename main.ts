@@ -16,14 +16,13 @@ neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 
-
-
-// get the light level
-let lightlevel = input.lightLevel()
+let lightlevel = 0
 
 // on a button pressed light up the amount of lights for that light level
 input.onButtonPressed(Button.A, function() {
     
+    lightlevel = input.lightLevel()
+
     if (lightlevel <= 51)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
