@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function() {
     neopixelStrip.show()
     
 
-    if (lightlevel > 52)
+    if (lightlevel >= 52)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
@@ -39,7 +39,7 @@ input.onButtonPressed(Button.A, function() {
     neopixelStrip.show()
      
 
-    if (lightlevel > 104)
+    if (lightlevel >= 104)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
@@ -47,7 +47,7 @@ input.onButtonPressed(Button.A, function() {
     neopixelStrip.show()
     
 
-    if (lightlevel > 156)
+    if (lightlevel >= 156)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
@@ -55,7 +55,7 @@ input.onButtonPressed(Button.A, function() {
     neopixelStrip.show()
     
 
-    if (lightlevel > 208)
+    if (lightlevel >= 208)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
